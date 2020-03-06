@@ -3,18 +3,18 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
- (filename . "~/Dropbox/Apps/orgmode/johannes2019.org")
- (front-context-string . "*** TODO Checken")
- (rear-context-string . "1-14 Do 13:31]\n\n")
- (position . 90526))
+ (filename . "~/Dropbox/Apps/orgmode/2020_todo.org")
+ (front-context-string . "** TODO Waterstr")
+ (rear-context-string . " - best Rstudio\n")
+ (position . 42737))
 ("org-refile-last-stored"
- (filename . "~/Dropbox/Apps/orgmode/johannes2019.org")
- (front-context-string . "*** DONE RK Hygi")
- (rear-context-string . "02-11 Di 11:44]\n")
- (position . 73271))
+ (filename . "~/Dropbox/Apps/orgmode/2020_todo.org")
+ (front-context-string . "** Blaue Geschic")
+ (rear-context-string . "03-03 Di 13:52]\n")
+ (position . 43575))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/Apps/orgmode/johannes2019.org")
- (front-context-string . "** TODO Checken ")
- (rear-context-string . "andere Volumes?\n")
- (position . 8174))
+ (filename . "~/Dropbox/Apps/orgmode/2020_todo.org")
+ (front-context-string . "** 3D Druck \"Knu")
+ (rear-context-string . "Die Ehemaligen\"\n")
+ (position . 43991))
 )

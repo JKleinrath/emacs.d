@@ -3,13 +3,14 @@
 
 (setq url-cookie-storage
  '((".google.com"
-  [url-cookie "CGIC" "IgMqLyo" "Sun, 26-Jul-2020 22:08:40 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "NID" "196=UuV7fJJvodn5Cy2ZndxeJtSWBqf7IF6ygqiSc6ntKnTgb29VRqQBPEsnKsInZIwbFYenjH071sTY6RY_Dn24_nT0YB8i4-IbE5jzHkJDwMG8tu9EQVC1K1ia25ro6gUGPRddnW3-IlWjLVwkO19WQWYAYyB0I8jlt10Yw45CzFE" "Wed, 29-Jul-2020 22:08:40 GMT" "/" ".google.com" nil]
   [url-cookie "CGIC" "IgMqLyo" "Sun, 26-Jul-2020 22:08:40 GMT" "/search" ".google.com" nil]
-  [url-cookie "NID" "196=UuV7fJJvodn5Cy2ZndxeJtSWBqf7IF6ygqiSc6ntKnTgb29VRqQBPEsnKsInZIwbFYenjH071sTY6RY_Dn24_nT0YB8i4-IbE5jzHkJDwMG8tu9EQVC1K1ia25ro6gUGPRddnW3-IlWjLVwkO19WQWYAYyB0I8jlt10Yw45CzFE" "Wed, 29-Jul-2020 22:08:40 GMT" "/" ".google.com" nil]))
+  [url-cookie "CGIC" "IgMqLyo" "Sun, 26-Jul-2020 22:08:40 GMT" "/complete/search" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
- '((".google.com"
-  [url-cookie "1P_JAR" "2020-01-28-22" "Thu, 27-Feb-2020 22:08:41 GMT" "/" ".google.com" t]))
+ '(("github.com"
+  [url-cookie "_octo" "GH1.1.1037331675.1582980502" "Mon, 01 Mar 2021 12:48:22 GMT" "/" "github.com" t]
+  [url-cookie "logged_in" "no" "Mon, 01 Mar 2021 12:48:22 GMT" "/" "github.com" t]))
 )
 
 ;; Local Variables:

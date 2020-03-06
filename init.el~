@@ -36,7 +36,10 @@ There are two things you can do about this warning:
 (load-theme 'doom-one t)
 
 ;; start with linenumbers (linum)
-(global-linum-mode 1)
+(global-nlinum-mode 1)
+
+;; word wrap
+(global-visual-line-mode t)
 
 ;; copy paste pictures
 (require 'org-download)
@@ -78,18 +81,26 @@ There are two things you can do about this warning:
     ("e1ecb0536abec692b5a5e845067d75273fe36f24d01210bf0aa5842f2a7e029f" default)))
  '(font-use-system-font t)
  '(ivy-mode t)
- '(org-agenda-files (quote ("~/Dropbox/Apps/orgmode/johannes2019.org")))
+ '(org-agenda-files
+   (quote
+    ("/media/windows/Dokumente und Einstellungen/johan/Documents/Dokumente Geordnet/Studium/Boku/Master/066_447 Water Management/Masterthesis/masterthesis/Masterthesis.org" "~/Dropbox/Apps/orgmode/2020_todo.org")))
  '(org-capture-templates
    (quote
     (("t" "Todos - Inbox" entry
-      (file+headline "~/Dropbox/Apps/orgmode/johannes2019.org" "Inbox")
+      (file+headline "~/Dropbox/Apps/orgmode/2020_todo.org" "Inbox")
       "* TODO %? 
  %U"))))
  '(org-download-backend "wget \"%s\" -O \"%s\"")
  '(org-export-backends (quote (ascii html icalendar latex md odt)))
+ '(org-goto-auto-isearch nil)
+ '(org-habit-show-done-always-green nil)
+ '(org-habit-show-habits-only-for-today nil)
+ '(org-habit-today-glyph 94)
+ '(org-startup-indented t)
+ '(org-super-agenda-mode nil)
  '(package-selected-packages
    (quote
-    (org-bullets org-themis dired-sidebar org-sidebar speed-type real-auto-save undo-tree ivy doom-themes org-noter which-key org-download multiple-cursors org-re-reveal helm-orgcard helm-org helm-org-rifle helm magit)))
+    (org-pomodoro nlinum org-ref org-bullets org-themis dired-sidebar org-sidebar speed-type real-auto-save undo-tree ivy doom-themes org-noter which-key org-download multiple-cursors org-re-reveal helm-orgcard helm-org helm-org-rifle helm magit)))
  '(save-place-mode t)
  '(show-paren-mode t))
 (custom-set-faces
@@ -98,4 +109,5 @@ There are two things you can do about this warning:
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(find-file "~/Dropbox/Apps/orgmode/johannes2019.org")
+(find-file "~/Dropbox/Apps/orgmode/2020_todo.org")
+(find-file "/media/windows/Dokumente und Einstellungen/johan/Documents/Dokumente Geordnet/Studium/Boku/Master/066_447 Water Management/Masterthesis/masterthesis/Masterthesis.org")
